@@ -1,0 +1,162 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Main content styles */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* Contact section styles */
+#contact {
+  border-top: 1px solid #ccc;
+  padding-top: 50px;
+}
+
+#contact ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#contact li {
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+#contact li:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  nav ul {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  nav li {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+  
+  main {
+    padding: 50px 10px;
+  }
+}
+
+ul.custom-bullets {
+  list-style: none;
+}
+
+ul.custom-bullets li::before {
+  content: "-";
+  margin-right: 0.5em;
+}
+
+
+
+
+.education {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date {
+  font-style: italic;
+}
