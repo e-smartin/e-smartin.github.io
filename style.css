@@ -160,3 +160,66 @@ ul.custom-bullets li::before {
 .date {
   font-style: italic;
 }
+
+
+
+
+
+
+
+
+
+/* ESTILO BUTTON */
+
+.minimal-button {
+  background-color: transparent;
+  border: 1px solid #333;
+  color: #333;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.minimal-button:hover {
+  background-color: #f0f0f0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Style for the overlay background */
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for the modal */
+.modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+/* Style to close the modal */
+.close-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
